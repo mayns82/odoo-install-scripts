@@ -1,7 +1,7 @@
 #!/bin/bash
 ################################################################################
-# Script for Installation: ODOO 8 server on Debian 7
-# Author: André Schenkels, ICTSTUDIO 2014
+# Script for Installation: ODOO 14 server on Debian 9
+# Author: AndrÃ© Schenkels, ICTSTUDIO 2014
 #-------------------------------------------------------------------------------
 #  
 # This script will install ODOO Server on
@@ -23,10 +23,10 @@ OE_HOME="/opt/$OE_USER"
 OE_HOME_EXT="/opt/$OE_USER/$OE_USER-server"
 
 #Enter version for checkout "8.0" for version 8.0, "7.0 (version 7), saas-4, saas-5 (opendays version) and "master" for trunk
-OE_VERSION="8.0"
+OE_VERSION="9.0"
 
 #set the superadmin password
-OE_SUPERADMIN="superadminpassword"
+OE_SUPERADMIN="6xtrp9kM"
 OE_CONFIG="$OE_USER-server"
 
 #--------------------------------------------------
